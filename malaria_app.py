@@ -5,6 +5,7 @@ import keras
 from keras.models import load_model
 from keras.preprocessing import image
 from keras.preprocessing.image import img_to_array
+import imageio
 
 app = Flask(__name__)
 
